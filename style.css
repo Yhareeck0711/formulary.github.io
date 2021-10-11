@@ -1,0 +1,165 @@
+@media screen and (min-width: 700px) {
+    body {
+        background: rgb(38, 48, 139);
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    .form {
+        width: 300px;
+        height: 275px;
+        background: black;
+        display: inline-block;
+        margin: 400px;
+        padding: 40px;
+        position: absolute;
+        text-align: center;
+        top: -225px;
+        left: 75px;
+    }
+    #text {
+        color: white;
+        position: relative;
+        top: -25px;
+    }
+    /*#usuario {
+        text-align: center;
+        position: relative;
+        /*display: inline-block;
+        border-radius: 25px;
+        width: 100px;
+        height: 25px;
+        top: -50px;
+        left: 100px;
+    }*/
+    .form input[type=text] {
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        width: 200px;
+        background: none;
+        color: white;
+        border: 2px solid #3498db;
+        outline: none;
+        padding: 14px 10px;
+        border-radius: 24px;
+        transition: 0.25s;
+    }
+    input {
+        display: inline-block;
+        appearance: auto;
+        -moz-default-appearance: textfield;
+        padding: 1px;
+        border: 2px inset ThreeDLightShadow;
+        background-color: Field;
+        color: FieldText;
+        font: -moz-field;
+        text-rendering: optimizeLegibility;
+        cursor: text;
+        overflow-clip-box: padding-box content-box;
+    }
+    #contraseña {
+        background: none;
+        margin: 20px auto;
+        text-align: center;
+        width: 200px;
+        color: white;
+        border: 2px solid #3498db;
+        outline: none;
+        padding: 14px 10px;
+        border-radius: 24px;
+        transition: 0.25s;
+        position: relative;
+        top: -20px;
+    }
+    #ingresar {
+        cursor: pointer;
+        width: 125px;
+        height: 50px;
+        text-align: center;
+        border-radius: 24px;
+        position: relative;
+        left: -5px;
+        background: none;
+        color: white;
+        border: 2px solid #3498db;
+    }
+}
+
+@media screen and (max-width:650px) {
+    body {
+        background: rgb(38, 48, 139);
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    .form {
+        width: 150px;
+        height: 275px;
+        background: black;
+        display: inline-block;
+        margin: 400px;
+        padding: 40px;
+        position: absolute;
+        text-align: center;
+        top: -300px;
+        left: -365px;
+    }
+    #text {
+        color: white;
+        position: relative;
+        top: -25px;
+    }
+    .form input[type=text] {
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        width: 125px;
+        background: none;
+        color: white;
+        border: 2px solid #3498db;
+        outline: none;
+        padding: 14px 10px;
+        border-radius: 24px;
+        transition: 0.25s;
+    }
+    input {
+        display: inline-block;
+        appearance: auto;
+        -moz-default-appearance: textfield;
+        padding: 1px;
+        border: 2px inset ThreeDLightShadow;
+        background-color: Field;
+        color: FieldText;
+        font: -moz-field;
+        text-rendering: optimizeLegibility;
+        cursor: text;
+        overflow-clip-box: padding-box content-box;
+    }
+    #contraseña {
+        background: none;
+        margin: 20px auto;
+        text-align: center;
+        width: 125px;
+        color: white;
+        border: 2px solid #3498db;
+        outline: none;
+        padding: 14px 10px;
+        border-radius: 24px;
+        transition: 0.25s;
+        position: relative;
+        top: -20px;
+    }
+    #ingresar {
+        cursor: pointer;
+        width: 125px;
+        height: 50px;
+        text-align: center;
+        border-radius: 24px;
+        position: relative;
+        left: -5px;
+        background: none;
+        color: white;
+        border: 2px solid #3498db;
+    }
+}
